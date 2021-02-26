@@ -1,0 +1,22 @@
+/* .container {
+  padding-top: 18vh;
+	margin: 20px auto;
+    width: 600px;
+}
+video {
+	width: 100%;
+} */
+
+@media print {
+  .video-js > *:not(.vjs-tech):not(.vjs-poster) {
+    visibility: hidden; } }
+
+          /* add by joel  */
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      .video-js {
+        
+        width: 100%;
+        max-width: 100%;
+      }
+    }
